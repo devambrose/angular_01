@@ -2,3 +2,4 @@
 
 This is me understanding angular js based on jcoop.io
 
+ng serve
