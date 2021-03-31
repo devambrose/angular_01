@@ -5,11 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './auth.component.html',
   styleUrls: []
 })
-export class AuthRouteComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class AuthRouteComponent {
+  title='login'
 }

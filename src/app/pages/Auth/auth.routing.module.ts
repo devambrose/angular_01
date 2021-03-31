@@ -5,6 +5,7 @@ import { RegisterComponent } from './register/register.component';
 import { Routes, RouterModule } from '@angular/router';
 import { AuthRouteComponent } from './auth.component';
 import { BrowserModule } from '@angular/platform-browser';
+import {FormsModule} from "@angular/forms";
 
 const routes: Routes = [
   {
@@ -32,7 +33,8 @@ const routes: Routes = [
   declarations: [LoginComponent, RegisterComponent, AuthRouteComponent],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    FormsModule
   ],exports: [RouterModule]
 })
 export class AuthRoutingModule { }
