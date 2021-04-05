@@ -1,1 +1,9 @@
-router apps
+<h3>Understanding Angular CLI</h3>
+
+<button class="btn btn-primary">Create btn</button>
+<div class="app-left app-full">
+  <div class="app-width-30 app-left" *ngFor="let event of events">
+    <label class="app-left app-full">{{event.name}}</label>
+    <label class="app-left app-full">{{event.data}}</label>
+  </div>
+</div>
